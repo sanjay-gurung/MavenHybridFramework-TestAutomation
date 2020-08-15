@@ -1,0 +1,6 @@
+08-15-2020 02:09:57.311 INFO  com.sanjayautomation.recipebook.testcases.TestShoppingListPage - beforeClass - Application launched successfully
+08-15-2020 02:09:57.391 INFO  com.sanjayautomation.recipebook.utilities.WebEventListener - beforeClickOn - Trying to click on: [[ChromeDriver: chrome on MAC (43f11a501bcc496a0c6c5661655b81d0)] -> xpath: //a[contains(text(), 'Shopping List')]]
+08-15-2020 02:09:57.861 INFO  com.sanjayautomation.recipebook.utilities.WebEventListener - beforeClickOn - Trying to click on: [[ChromeDriver: chrome on MAC (43f11a501bcc496a0c6c5661655b81d0)] -> xpath: //button[contains(text(),'Add')]]
+08-15-2020 02:09:57.966 INFO  com.sanjayautomation.recipebook.testcases.TestShoppingListPage - test_shouldAddNewIngredient_whenValidNameAndAmountEntered - Test passed
+08-15-2020 02:09:58.191 INFO  com.sanjayautomation.recipebook.testcases.TestShoppingListPage - tearDown - Browser terminated
+08-15-2020 02:09:58.192 INFO  com.sanjayautomation.recipebook.testcases.TestShoppingListPage - tearDown - ----------------------------------------------

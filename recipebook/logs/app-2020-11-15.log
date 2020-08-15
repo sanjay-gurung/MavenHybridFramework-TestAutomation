@@ -1,0 +1,12 @@
+08-15-2020 02:11:02.136 INFO  com.sanjayautomation.recipebook.testcases.TestRecipesPage - beforeClass - Application launched successfully
+08-15-2020 02:11:02.176 INFO  com.sanjayautomation.recipebook.utilities.WebEventListener - beforeClickOn - Trying to click on: [[ChromeDriver: chrome on MAC (adb0a0a24fe1a1411e3023ea5000b4b9)] -> xpath: //button[contains(.,'New Recipe')]]
+08-15-2020 02:11:03.009 INFO  com.sanjayautomation.recipebook.utilities.WebEventListener - beforeClickOn - Trying to click on: [[ChromeDriver: chrome on MAC (adb0a0a24fe1a1411e3023ea5000b4b9)] -> xpath: //button[contains(text(), 'Save')]]
+08-15-2020 02:11:03.190 INFO  com.sanjayautomation.recipebook.testcases.TestRecipesPage - test_shouldAddMultipleNewRecipes_whenCorrectValuesEnteredOneAfterAnother - Test Passed
+08-15-2020 02:11:03.424 INFO  com.sanjayautomation.recipebook.testcases.TestRecipesPage - afterClass - Browser terminated
+08-15-2020 02:11:03.425 INFO  com.sanjayautomation.recipebook.testcases.TestRecipesPage - afterClass - ----------------------------------------------
+08-15-2020 02:11:05.824 INFO  com.sanjayautomation.recipebook.testcases.TestRecipesPage - beforeClass - Application launched successfully
+08-15-2020 02:11:05.863 INFO  com.sanjayautomation.recipebook.utilities.WebEventListener - beforeClickOn - Trying to click on: [[ChromeDriver: chrome on MAC (10de7b4bf74862816946759cb4015e89)] -> xpath: //button[contains(.,'New Recipe')]]
+08-15-2020 02:11:06.713 INFO  com.sanjayautomation.recipebook.utilities.WebEventListener - beforeClickOn - Trying to click on: [[ChromeDriver: chrome on MAC (10de7b4bf74862816946759cb4015e89)] -> xpath: //button[contains(text(), 'Save')]]
+08-15-2020 02:11:06.866 INFO  com.sanjayautomation.recipebook.testcases.TestRecipesPage - test_shouldAddMultipleNewRecipes_whenCorrectValuesEnteredOneAfterAnother - Test Passed
+08-15-2020 02:11:07.087 INFO  com.sanjayautomation.recipebook.testcases.TestRecipesPage - afterClass - Browser terminated
+08-15-2020 02:11:07.087 INFO  com.sanjayautomation.recipebook.testcases.TestRecipesPage - afterClass - ----------------------------------------------
