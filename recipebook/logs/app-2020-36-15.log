@@ -1,0 +1,14 @@
+08-15-2020 13:36:29.453 INFO  com.sanjayautomation.recipebook.testcases.TestRecipesPage - setup - Application launched successfully
+08-15-2020 13:36:29.762 INFO  com.sanjayautomation.recipebook.testcases.TestRecipesPage - test_shouldDisplayRecipesList_whenUserInLandingPage - Test Passed
+08-15-2020 13:36:30.011 INFO  com.sanjayautomation.recipebook.testcases.TestRecipesPage - tearDown - Browser terminated
+08-15-2020 13:36:30.011 INFO  com.sanjayautomation.recipebook.testcases.TestRecipesPage - tearDown - ----------------------------------------------
+08-15-2020 13:36:32.189 INFO  com.sanjayautomation.recipebook.testcases.TestRecipesPage - setup - Application launched successfully
+08-15-2020 13:36:32.250 INFO  com.sanjayautomation.recipebook.testcases.TestRecipesPage - test_shouldDisplayText_whenUserInLandingPage - Test Passed
+08-15-2020 13:36:32.503 INFO  com.sanjayautomation.recipebook.testcases.TestRecipesPage - tearDown - Browser terminated
+08-15-2020 13:36:32.504 INFO  com.sanjayautomation.recipebook.testcases.TestRecipesPage - tearDown - ----------------------------------------------
+08-15-2020 13:36:34.775 INFO  com.sanjayautomation.recipebook.testcases.TestRecipesPage - setup - Application launched successfully
+08-15-2020 13:36:34.807 INFO  com.sanjayautomation.recipebook.utilities.WebEventListener - beforeClickOn - Trying to click on: [[ChromeDriver: chrome on MAC (9ae616e8ef133b2f24973d7e20e27838)] -> xpath: //button[contains(.,'New Recipe')]]
+08-15-2020 13:36:35.539 INFO  com.sanjayautomation.recipebook.utilities.WebEventListener - beforeClickOn - Trying to click on: [[ChromeDriver: chrome on MAC (9ae616e8ef133b2f24973d7e20e27838)] -> xpath: //button[contains(text(), 'Save')]]
+08-15-2020 13:36:35.699 ERROR com.sanjayautomation.recipebook.utilities.TestNGListener - onTestFailure - Test failed --> [TestResult name=test_shouldAddNewRecipe_whenCorrectValuesEntered status=FAILURE method=TestRecipesPage.test_shouldAddNewRecipe_whenCorrectValuesEntered()[pri:3, instance:com.sanjayautomation.recipebook.testcases.TestRecipesPage@52e6fdee] output={null}]
+08-15-2020 13:36:36.308 INFO  com.sanjayautomation.recipebook.testcases.TestRecipesPage - tearDown - Browser terminated
+08-15-2020 13:36:36.309 INFO  com.sanjayautomation.recipebook.testcases.TestRecipesPage - tearDown - ----------------------------------------------

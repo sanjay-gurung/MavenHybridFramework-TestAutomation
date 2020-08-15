@@ -1,0 +1,4 @@
+08-15-2020 13:27:22.849 INFO  com.sanjayautomation.recipebook.testcases.TestRecipesPage - setup - Application launched successfully
+08-15-2020 13:27:23.033 INFO  com.sanjayautomation.recipebook.testcases.TestRecipesPage - test_shouldDisplayRecipesList_whenUserInLandingPage - Test Passed
+08-15-2020 13:27:23.257 INFO  com.sanjayautomation.recipebook.testcases.TestRecipesPage - tearDown - Browser terminated
+08-15-2020 13:27:23.257 INFO  com.sanjayautomation.recipebook.testcases.TestRecipesPage - tearDown - ----------------------------------------------

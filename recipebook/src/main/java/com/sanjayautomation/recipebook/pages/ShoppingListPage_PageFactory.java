@@ -24,6 +24,9 @@ public class ShoppingListPage_PageFactory {
 	@FindBy(xpath="//a[@class='list-group-item' and position()=last()]")
 	WebElement lastIngredientInTheList;
 	
+	@FindBy(className="a[class='list-group-item']")
+	WebElement ingredientInTheList;
+	
 	
 	// Initializing the Page Objects:
 	public ShoppingListPage_PageFactory(WebDriver driver) {
@@ -32,6 +35,10 @@ public class ShoppingListPage_PageFactory {
 	
 	
 	// Actions:
+	
+	public boolean isIngredientDisplayed() {
+		return ingredientInTheList.isDisplayed();
+	}
 	
 	public void enterIngredientName(String ingredientName) {
 		nameInputField.sendKeys(ingredientName);

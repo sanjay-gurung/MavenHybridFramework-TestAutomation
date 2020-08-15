@@ -1,0 +1,6 @@
+08-15-2020 10:58:49.098 INFO  com.sanjayautomation.recipebook.testcases.TestRecipesPage - beforeClass - Application launched successfully
+08-15-2020 10:58:49.150 INFO  com.sanjayautomation.recipebook.utilities.WebEventListener - beforeClickOn - Trying to click on: [[ChromeDriver: chrome on MAC (4aade414d07aff57d67c922d08b2b94d)] -> xpath: //button[contains(.,'New Recipe')]]
+08-15-2020 10:58:49.865 INFO  com.sanjayautomation.recipebook.utilities.WebEventListener - beforeClickOn - Trying to click on: [[ChromeDriver: chrome on MAC (4aade414d07aff57d67c922d08b2b94d)] -> xpath: //button[contains(text(), 'Save')]]
+08-15-2020 10:58:50.077 INFO  com.sanjayautomation.recipebook.testcases.TestRecipesPage - test_shouldAddNewRecipe_whenCorrectValuesEntered - Test Passed
+08-15-2020 10:58:50.310 INFO  com.sanjayautomation.recipebook.testcases.TestRecipesPage - afterClass - Browser terminated
+08-15-2020 10:58:50.310 INFO  com.sanjayautomation.recipebook.testcases.TestRecipesPage - afterClass - ----------------------------------------------

@@ -1,0 +1,9 @@
+08-15-2020 13:20:54.613 INFO  com.sanjayautomation.recipebook.testcases.TestShoppingListPage - setup - Application launched successfully
+08-15-2020 13:20:54.691 INFO  com.sanjayautomation.recipebook.utilities.WebEventListener - beforeClickOn - Trying to click on: [[ChromeDriver: chrome on MAC (e31d2cd618c1d9a897576c726b49072e)] -> xpath: //a[contains(text(), 'Shopping List')]]
+08-15-2020 13:20:55.029 INFO  com.sanjayautomation.recipebook.testcases.TestShoppingListPage - test_shouldDisplayDefaultIngredient_whenNavigatedToShoppingListPage - Test passed
+08-15-2020 13:20:55.220 INFO  com.sanjayautomation.recipebook.testcases.TestShoppingListPage - tearDown - Browser terminated
+08-15-2020 13:20:55.221 INFO  com.sanjayautomation.recipebook.testcases.TestShoppingListPage - tearDown - ----------------------------------------------
+08-15-2020 13:20:57.510 INFO  com.sanjayautomation.recipebook.testcases.TestRecipesPage - setup - Application launched successfully
+08-15-2020 13:20:57.761 INFO  com.sanjayautomation.recipebook.testcases.TestRecipesPage - test_shouldDisplayRecipesList_whenUserInLandingPage - Test Passed
+08-15-2020 13:20:57.969 INFO  com.sanjayautomation.recipebook.testcases.TestRecipesPage - tearDown - Browser terminated
+08-15-2020 13:20:57.970 INFO  com.sanjayautomation.recipebook.testcases.TestRecipesPage - tearDown - ----------------------------------------------

@@ -21,24 +21,39 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
-import org.testng.annotations.AfterSuite;;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.AfterTest;;
 
 
-//@Listeners(main.utilities.TestNGListener.class)
+@Listeners(com.sanjayautomation.recipebook.utilities.TestNGListener.class)
 public class TestRecipesPage extends BaseSetup {
 	
 	String baseUrl;
 	RecipesPage_POM recipesPage;
 	
-  @BeforeMethod
-  public void beforeClass() {	  	
+  @BeforeMethod(groups= {"smoke", "regression"})
+  public void setup() {	  	
+	  initialize();
+	  log.info("Application launched successfully");
+	  recipesPage = new RecipesPage_POM(driver);
+  }
+  
+  @BeforeTest(groups= {"dataDrivn"})
+  public void setupBeforeTest() {	  	
 	  initialize();
 	  log.info("Application launched successfully");
 	  recipesPage = new RecipesPage_POM(driver);
   }
   
   
-  @Test(priority=1)
+  @Test(priority=1, groups={"smoke", "regression"})
+  public void test_shouldDisplayRecipesList_whenUserInLandingPage() {
+	  Assert.assertTrue(recipesPage.recipesListDisplayed());
+	  log.info("Test Passed");
+  }
+ 
+  
+  @Test(priority=2, groups={"regression"})
   public void test_shouldDisplayText_whenUserInLandingPage() {
 	  String landingPageText = recipesPage.getLandingPageText();
 	  Assert.assertEquals(landingPageText, "Please select a recipe!");
@@ -46,14 +61,7 @@ public class TestRecipesPage extends BaseSetup {
   }
   
   
-  @Test(priority=2)
-  public void test_shouldDisplayRecipesList_whenUserInLandingPage() {
-	  Assert.assertTrue(recipesPage.recipesListDisplayed());
-	  log.info("Test Passed");
-  }
- 
-  
-  @Test(priority=3)
+  @Test(priority=3, groups={"regression"})
   public void test_shouldAddNewRecipe_whenCorrectValuesEntered() throws Exception {
 	  recipesPage.navigateToNewRecipe();
 	  recipesPage.enterRecipeName("momo");
@@ -77,7 +85,7 @@ public class TestRecipesPage extends BaseSetup {
 	  return data;
   }
   
-  @Test(priority=4, dataProvider="getTestDataForNewRecipe")
+  @Test(priority=4, groups= {"dataDrivn"}, dataProvider="getTestDataForNewRecipe")
   public void test_shouldAddMultipleNewRecipes_whenCorrectValuesEnteredOneAfterAnother(String name, String url, String description) throws Exception {
 	  recipesPage.navigateToNewRecipe();
 	  recipesPage.enterRecipeName(name);
@@ -90,12 +98,21 @@ public class TestRecipesPage extends BaseSetup {
 	  
   }
   
-  @AfterMethod
-  public void afterClass() throws Exception {
+  @AfterMethod(groups= {"smoke", "regression"})
+  public void tearDown() throws Exception {
 	  //Thread.sleep(2000);
 	  driver.quit();
 	  log.info("Browser terminated");
 	  log.info("----------------------------------------------");
   }
+  
+  @AfterTest(groups="dataDrivn")
+  public void tearDownAfterTest() throws Exception {
+	  //Thread.sleep(2000);
+	  driver.quit();
+	  log.info("Browser terminated");
+	  log.info("----------------------------------------------");
+  }
+
 
 }

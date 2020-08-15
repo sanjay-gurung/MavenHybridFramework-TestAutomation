@@ -21,22 +21,30 @@ import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 
-//@Listeners(main.utilities.TestNGListener.class)
+@Listeners(com.sanjayautomation.recipebook.utilities.TestNGListener.class)
 public class TestShoppingListPage extends BaseSetup {
 	
 	RecipesPage_POM recipesPage;
 	ShoppingListPage_PageFactory shoppingListPage;
 	
 	
-  @BeforeMethod
-  public void beforeClass() {	  	
+  @BeforeMethod(alwaysRun=true)
+  public void setup() {	  	
 	  initialize();
 	  log.info("Application launched successfully");
 	  recipesPage = new RecipesPage_POM(driver);
 	  shoppingListPage = new ShoppingListPage_PageFactory(driver);
   }
   
-  @Test(priority=1)
+  @Test(priority=1, groups={"smoke"})
+  public void test_shouldDisplayDefaultIngredient_whenNavigatedToShoppingListPage() {
+	  recipesPage.clickOnShoppingListTab();
+	  shoppingListPage.enterIngredientName("masala");
+	  Assert.assertFalse(shoppingListPage.getAddButton().isEnabled());
+	  log.info("Test passed");
+  }
+  
+  @Test(priority=2, groups={"regression"})
   public void test_shouldAddNewIngredient_whenValidNameAndAmountEntered() {
 	  recipesPage.clickOnShoppingListTab();
 	  shoppingListPage.enterIngredientName("masala");
@@ -47,7 +55,7 @@ public class TestShoppingListPage extends BaseSetup {
 	  log.info("Test passed");
   }
   
-  @Test(priority=2)
+  @Test(priority=3, groups={"regression"})
   public void test_shouldDisableAddButton_WhenOnlyNameIsEngered() {
 	  recipesPage.clickOnShoppingListTab();
 	  shoppingListPage.enterIngredientName("masala");
@@ -55,7 +63,7 @@ public class TestShoppingListPage extends BaseSetup {
 	  log.info("Test passed");
   }
   
-  @Test(priority=3)
+  @Test(priority=4, groups={"regression"})
   public void test_shouldDisableAddButton_WhenAmountIsNotNumber() {
 	  recipesPage.clickOnShoppingListTab();
 	  shoppingListPage.enterIngredientName("masala");
@@ -64,7 +72,7 @@ public class TestShoppingListPage extends BaseSetup {
 	  log.info("Test passed");
   }
   
-  @AfterMethod
+  @AfterMethod(alwaysRun=true)
   public void tearDown() {
 	  driver.quit();
 	  log.info("Browser terminated");

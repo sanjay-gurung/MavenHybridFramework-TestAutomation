@@ -1,10 +1,16 @@
-08-15-2020 01:30:23.616 INFO  com.sanjayautomation.recipebook.testcases.TestRecipesPage - beforeClass - Application launched successfully
-08-15-2020 01:30:23.717 INFO  com.sanjayautomation.recipebook.testcases.TestRecipesPage - test_shouldDisplayText_whenUserInLandingPage - Test Passed
-08-15-2020 01:30:23.918 INFO  com.sanjayautomation.recipebook.testcases.TestRecipesPage - afterClass - Browser terminated
-08-15-2020 01:30:23.919 INFO  com.sanjayautomation.recipebook.testcases.TestRecipesPage - afterClass - ----------------------------------------------
-08-15-2020 01:30:26.201 INFO  com.sanjayautomation.recipebook.testcases.TestShoppingListPage - beforeClass - Application launched successfully
-08-15-2020 01:30:26.256 INFO  com.sanjayautomation.recipebook.utilities.WebEventListener - beforeClickOn - Trying to click on: [[ChromeDriver: chrome on MAC (c291ec2abca9b91c2d70b380af950184)] -> xpath: //a[contains(text(), 'Shopping List')]]
-08-15-2020 01:30:26.618 INFO  com.sanjayautomation.recipebook.utilities.WebEventListener - beforeClickOn - Trying to click on: [[ChromeDriver: chrome on MAC (c291ec2abca9b91c2d70b380af950184)] -> xpath: //button[contains(text(),'Add')]]
-08-15-2020 01:30:26.727 INFO  com.sanjayautomation.recipebook.testcases.TestShoppingListPage - test_shouldAddNewIngredient_whenValidNameAndAmountEntered - Test passed
-08-15-2020 01:30:26.926 INFO  com.sanjayautomation.recipebook.testcases.TestShoppingListPage - tearDown - Browser terminated
-08-15-2020 01:30:26.927 INFO  com.sanjayautomation.recipebook.testcases.TestShoppingListPage - tearDown - ----------------------------------------------
+08-15-2020 13:29:00.343 INFO  com.sanjayautomation.recipebook.testcases.TestRecipesPage - setupBeforeTest - Application launched successfully
+08-15-2020 13:29:01.339 INFO  com.sanjayautomation.recipebook.utilities.WebEventListener - beforeClickOn - Trying to click on: [[ChromeDriver: chrome on MAC (721aba12a886e968157f295aa18d8708)] -> xpath: //button[contains(.,'New Recipe')]]
+08-15-2020 13:29:02.147 INFO  com.sanjayautomation.recipebook.utilities.WebEventListener - beforeClickOn - Trying to click on: [[ChromeDriver: chrome on MAC (721aba12a886e968157f295aa18d8708)] -> xpath: //button[contains(text(), 'Save')]]
+08-15-2020 13:29:02.333 INFO  com.sanjayautomation.recipebook.testcases.TestRecipesPage - test_shouldAddMultipleNewRecipes_whenCorrectValuesEnteredOneAfterAnother - Test Passed
+08-15-2020 13:29:02.349 INFO  com.sanjayautomation.recipebook.utilities.WebEventListener - beforeClickOn - Trying to click on: [[ChromeDriver: chrome on MAC (721aba12a886e968157f295aa18d8708)] -> xpath: //button[contains(.,'New Recipe')]]
+08-15-2020 13:29:02.942 INFO  com.sanjayautomation.recipebook.utilities.WebEventListener - beforeClickOn - Trying to click on: [[ChromeDriver: chrome on MAC (721aba12a886e968157f295aa18d8708)] -> xpath: //button[contains(text(), 'Save')]]
+08-15-2020 13:29:03.086 INFO  com.sanjayautomation.recipebook.testcases.TestRecipesPage - test_shouldAddMultipleNewRecipes_whenCorrectValuesEnteredOneAfterAnother - Test Passed
+08-15-2020 13:29:03.107 INFO  com.sanjayautomation.recipebook.utilities.WebEventListener - beforeClickOn - Trying to click on: [[ChromeDriver: chrome on MAC (721aba12a886e968157f295aa18d8708)] -> xpath: //button[contains(.,'New Recipe')]]
+08-15-2020 13:29:03.690 INFO  com.sanjayautomation.recipebook.utilities.WebEventListener - beforeClickOn - Trying to click on: [[ChromeDriver: chrome on MAC (721aba12a886e968157f295aa18d8708)] -> xpath: //button[contains(text(), 'Save')]]
+08-15-2020 13:29:03.803 INFO  com.sanjayautomation.recipebook.testcases.TestRecipesPage - test_shouldAddMultipleNewRecipes_whenCorrectValuesEnteredOneAfterAnother - Test Passed
+08-15-2020 13:29:04.041 INFO  com.sanjayautomation.recipebook.testcases.TestRecipesPage - tearDownAfterTest - Browser terminated
+08-15-2020 13:29:04.041 INFO  com.sanjayautomation.recipebook.testcases.TestRecipesPage - tearDownAfterTest - ----------------------------------------------
+08-15-2020 13:30:53.122 INFO  com.sanjayautomation.recipebook.testcases.TestRecipesPage - setup - Application launched successfully
+08-15-2020 13:30:53.411 INFO  com.sanjayautomation.recipebook.testcases.TestRecipesPage - test_shouldDisplayRecipesList_whenUserInLandingPage - Test Passed
+08-15-2020 13:30:53.663 INFO  com.sanjayautomation.recipebook.testcases.TestRecipesPage - tearDown - Browser terminated
+08-15-2020 13:30:53.663 INFO  com.sanjayautomation.recipebook.testcases.TestRecipesPage - tearDown - ----------------------------------------------

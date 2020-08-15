@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="RecipeBook_RegressionTest_dataDrivn">
+<test name="RegressionTest_dataDrivn">
+<groups>
+	<run>
+		<include name="dataDrivn" />
+	</run>
+</groups>
+	<classes>
+		<class name="com.sanjayautomation.recipebook.testcases.TestRecipesPage" />
+	</classes>
+</test>
+</suite>

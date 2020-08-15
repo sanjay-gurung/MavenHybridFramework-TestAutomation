@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [RecipeBook_RegressionTest]">
+  <test thread-count="5" name="RegressionTest(failed)">
+    <groups>
+      <run>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.sanjayautomation.recipebook.testcases.TestRecipesPage">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="test_shouldAddNewRecipe_whenCorrectValuesEntered"/>
+        </methods>
+      </class> <!-- com.sanjayautomation.recipebook.testcases.TestRecipesPage -->
+    </classes>
+  </test> <!-- RegressionTest(failed) -->
+</suite> <!-- Failed suite [RecipeBook_RegressionTest] -->

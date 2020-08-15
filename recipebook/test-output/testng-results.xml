@@ -1,174 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+<testng-results skipped="0" failed="0" ignored="2" total="8" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="RecipeBook_RegressionTest" duration-ms="41143" started-at="2020-08-15T09:22:31Z" finished-at="2020-08-15T09:23:12Z">
+  <suite name="RecipeBook_RegressionTest" duration-ms="20477" started-at="2020-08-15T20:37:55Z" finished-at="2020-08-15T20:38:15Z">
     <groups>
+      <group name="regression">
+        <method signature="TestRecipesPage.test_shouldAddNewRecipe_whenCorrectValuesEntered()[pri:3, instance:com.sanjayautomation.recipebook.testcases.TestRecipesPage@1a451d4d]" name="test_shouldAddNewRecipe_whenCorrectValuesEntered" class="com.sanjayautomation.recipebook.testcases.TestRecipesPage"/>
+        <method signature="TestRecipesPage.test_shouldDisplayRecipesList_whenUserInLandingPage()[pri:1, instance:com.sanjayautomation.recipebook.testcases.TestRecipesPage@1a451d4d]" name="test_shouldDisplayRecipesList_whenUserInLandingPage" class="com.sanjayautomation.recipebook.testcases.TestRecipesPage"/>
+        <method signature="TestRecipesPage.test_shouldDisplayText_whenUserInLandingPage()[pri:2, instance:com.sanjayautomation.recipebook.testcases.TestRecipesPage@1a451d4d]" name="test_shouldDisplayText_whenUserInLandingPage" class="com.sanjayautomation.recipebook.testcases.TestRecipesPage"/>
+        <method signature="TestShoppingListPage.test_shouldAddNewIngredient_whenValidNameAndAmountEntered()[pri:2, instance:com.sanjayautomation.recipebook.testcases.TestShoppingListPage@7fa98a66]" name="test_shouldAddNewIngredient_whenValidNameAndAmountEntered" class="com.sanjayautomation.recipebook.testcases.TestShoppingListPage"/>
+        <method signature="TestShoppingListPage.test_shouldDisableAddButton_WhenAmountIsNotNumber()[pri:4, instance:com.sanjayautomation.recipebook.testcases.TestShoppingListPage@7fa98a66]" name="test_shouldDisableAddButton_WhenAmountIsNotNumber" class="com.sanjayautomation.recipebook.testcases.TestShoppingListPage"/>
+        <method signature="TestShoppingListPage.test_shouldDisableAddButton_WhenOnlyNameIsEngered()[pri:3, instance:com.sanjayautomation.recipebook.testcases.TestShoppingListPage@7fa98a66]" name="test_shouldDisableAddButton_WhenOnlyNameIsEngered" class="com.sanjayautomation.recipebook.testcases.TestShoppingListPage"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="TestRecipesPage.test_shouldDisplayRecipesList_whenUserInLandingPage()[pri:1, instance:com.sanjayautomation.recipebook.testcases.TestRecipesPage@1a451d4d]" name="test_shouldDisplayRecipesList_whenUserInLandingPage" class="com.sanjayautomation.recipebook.testcases.TestRecipesPage"/>
+      </group> <!-- smoke -->
     </groups>
-    <test name="Test_RecipesPage_And_ShoppingListpage" duration-ms="41143" started-at="2020-08-15T09:22:31Z" finished-at="2020-08-15T09:23:12Z">
+    <test name="RegressionTest" duration-ms="20477" started-at="2020-08-15T20:37:55Z" finished-at="2020-08-15T20:38:15Z">
       <class name="com.sanjayautomation.recipebook.testcases.TestShoppingListPage">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.sanjayautomation.recipebook.testcases.TestShoppingListPage@384ad17b]" name="beforeClass" is-config="true" duration-ms="3724" started-at="2020-08-15T09:22:31Z" finished-at="2020-08-15T09:22:35Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.sanjayautomation.recipebook.testcases.TestShoppingListPage@7fa98a66]" name="setup" is-config="true" duration-ms="2556" started-at="2020-08-15T20:38:02Z" finished-at="2020-08-15T20:38:05Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="test_shouldAddNewIngredient_whenValidNameAndAmountEntered()[pri:1, instance:com.sanjayautomation.recipebook.testcases.TestShoppingListPage@384ad17b]" name="test_shouldAddNewIngredient_whenValidNameAndAmountEntered" duration-ms="565" started-at="2020-08-15T09:22:35Z" finished-at="2020-08-15T09:22:36Z">
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test_shouldAddNewIngredient_whenValidNameAndAmountEntered()[pri:2, instance:com.sanjayautomation.recipebook.testcases.TestShoppingListPage@7fa98a66]" name="test_shouldAddNewIngredient_whenValidNameAndAmountEntered" duration-ms="547" started-at="2020-08-15T20:38:05Z" finished-at="2020-08-15T20:38:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_shouldAddNewIngredient_whenValidNameAndAmountEntered -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sanjayautomation.recipebook.testcases.TestShoppingListPage@384ad17b]" name="tearDown" is-config="true" duration-ms="242" started-at="2020-08-15T09:22:36Z" finished-at="2020-08-15T09:22:36Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sanjayautomation.recipebook.testcases.TestShoppingListPage@7fa98a66]" name="tearDown" is-config="true" duration-ms="222" started-at="2020-08-15T20:38:06Z" finished-at="2020-08-15T20:38:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.sanjayautomation.recipebook.testcases.TestShoppingListPage@384ad17b]" name="beforeClass" is-config="true" duration-ms="4603" started-at="2020-08-15T09:22:40Z" finished-at="2020-08-15T09:22:44Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.sanjayautomation.recipebook.testcases.TestShoppingListPage@7fa98a66]" name="setup" is-config="true" duration-ms="2184" started-at="2020-08-15T20:38:09Z" finished-at="2020-08-15T20:38:11Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="test_shouldDisableAddButton_WhenOnlyNameIsEngered()[pri:2, instance:com.sanjayautomation.recipebook.testcases.TestShoppingListPage@384ad17b]" name="test_shouldDisableAddButton_WhenOnlyNameIsEngered" duration-ms="540" started-at="2020-08-15T09:22:44Z" finished-at="2020-08-15T09:22:45Z">
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test_shouldDisableAddButton_WhenOnlyNameIsEngered()[pri:3, instance:com.sanjayautomation.recipebook.testcases.TestShoppingListPage@7fa98a66]" name="test_shouldDisableAddButton_WhenOnlyNameIsEngered" duration-ms="297" started-at="2020-08-15T20:38:11Z" finished-at="2020-08-15T20:38:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_shouldDisableAddButton_WhenOnlyNameIsEngered -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sanjayautomation.recipebook.testcases.TestShoppingListPage@384ad17b]" name="tearDown" is-config="true" duration-ms="256" started-at="2020-08-15T09:22:45Z" finished-at="2020-08-15T09:22:45Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sanjayautomation.recipebook.testcases.TestShoppingListPage@7fa98a66]" name="tearDown" is-config="true" duration-ms="246" started-at="2020-08-15T20:38:12Z" finished-at="2020-08-15T20:38:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.sanjayautomation.recipebook.testcases.TestShoppingListPage@384ad17b]" name="beforeClass" is-config="true" duration-ms="2322" started-at="2020-08-15T09:22:49Z" finished-at="2020-08-15T09:22:51Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.sanjayautomation.recipebook.testcases.TestShoppingListPage@7fa98a66]" name="setup" is-config="true" duration-ms="2447" started-at="2020-08-15T20:38:12Z" finished-at="2020-08-15T20:38:14Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="test_shouldDisableAddButton_WhenAmountIsNotNumber()[pri:3, instance:com.sanjayautomation.recipebook.testcases.TestShoppingListPage@384ad17b]" name="test_shouldDisableAddButton_WhenAmountIsNotNumber" duration-ms="447" started-at="2020-08-15T09:22:51Z" finished-at="2020-08-15T09:22:51Z">
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test_shouldDisableAddButton_WhenAmountIsNotNumber()[pri:4, instance:com.sanjayautomation.recipebook.testcases.TestShoppingListPage@7fa98a66]" name="test_shouldDisableAddButton_WhenAmountIsNotNumber" duration-ms="350" started-at="2020-08-15T20:38:14Z" finished-at="2020-08-15T20:38:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_shouldDisableAddButton_WhenAmountIsNotNumber -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sanjayautomation.recipebook.testcases.TestShoppingListPage@384ad17b]" name="tearDown" is-config="true" duration-ms="244" started-at="2020-08-15T09:22:51Z" finished-at="2020-08-15T09:22:52Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sanjayautomation.recipebook.testcases.TestShoppingListPage@7fa98a66]" name="tearDown" is-config="true" duration-ms="257" started-at="2020-08-15T20:38:15Z" finished-at="2020-08-15T20:38:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.sanjayautomation.recipebook.testcases.TestShoppingListPage -->
       <class name="com.sanjayautomation.recipebook.testcases.TestRecipesPage">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.sanjayautomation.recipebook.testcases.TestRecipesPage@61862a7f]" name="beforeClass" is-config="true" duration-ms="3552" started-at="2020-08-15T09:22:36Z" finished-at="2020-08-15T09:22:39Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.sanjayautomation.recipebook.testcases.TestRecipesPage@1a451d4d]" name="setup" is-config="true" duration-ms="4485" started-at="2020-08-15T20:37:55Z" finished-at="2020-08-15T20:37:59Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="test_shouldDisplayText_whenUserInLandingPage()[pri:1, instance:com.sanjayautomation.recipebook.testcases.TestRecipesPage@61862a7f]" name="test_shouldDisplayText_whenUserInLandingPage" duration-ms="64" started-at="2020-08-15T09:22:39Z" finished-at="2020-08-15T09:22:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_shouldDisplayText_whenUserInLandingPage -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.sanjayautomation.recipebook.testcases.TestRecipesPage@61862a7f]" name="afterClass" is-config="true" duration-ms="275" started-at="2020-08-15T09:22:39Z" finished-at="2020-08-15T09:22:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.sanjayautomation.recipebook.testcases.TestRecipesPage@61862a7f]" name="beforeClass" is-config="true" duration-ms="2908" started-at="2020-08-15T09:22:45Z" finished-at="2020-08-15T09:22:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="test_shouldDisplayRecipesList_whenUserInLandingPage()[pri:2, instance:com.sanjayautomation.recipebook.testcases.TestRecipesPage@61862a7f]" name="test_shouldDisplayRecipesList_whenUserInLandingPage" duration-ms="257" started-at="2020-08-15T09:22:48Z" finished-at="2020-08-15T09:22:48Z">
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test_shouldDisplayRecipesList_whenUserInLandingPage()[pri:1, instance:com.sanjayautomation.recipebook.testcases.TestRecipesPage@1a451d4d]" name="test_shouldDisplayRecipesList_whenUserInLandingPage" duration-ms="290" started-at="2020-08-15T20:37:59Z" finished-at="2020-08-15T20:37:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_shouldDisplayRecipesList_whenUserInLandingPage -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.sanjayautomation.recipebook.testcases.TestRecipesPage@61862a7f]" name="afterClass" is-config="true" duration-ms="265" started-at="2020-08-15T09:22:48Z" finished-at="2020-08-15T09:22:49Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sanjayautomation.recipebook.testcases.TestRecipesPage@1a451d4d]" name="tearDown" is-config="true" duration-ms="258" started-at="2020-08-15T20:37:59Z" finished-at="2020-08-15T20:38:00Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.sanjayautomation.recipebook.testcases.TestRecipesPage@61862a7f]" name="beforeClass" is-config="true" duration-ms="2429" started-at="2020-08-15T09:22:52Z" finished-at="2020-08-15T09:22:54Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.sanjayautomation.recipebook.testcases.TestRecipesPage@1a451d4d]" name="setup" is-config="true" duration-ms="2538" started-at="2020-08-15T20:38:00Z" finished-at="2020-08-15T20:38:02Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="test_shouldAddNewRecipe_whenCorrectValuesEntered()[pri:3, instance:com.sanjayautomation.recipebook.testcases.TestRecipesPage@61862a7f]" name="test_shouldAddNewRecipe_whenCorrectValuesEntered" duration-ms="1002" started-at="2020-08-15T09:22:54Z" finished-at="2020-08-15T09:22:55Z">
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test_shouldDisplayText_whenUserInLandingPage()[pri:2, instance:com.sanjayautomation.recipebook.testcases.TestRecipesPage@1a451d4d]" name="test_shouldDisplayText_whenUserInLandingPage" duration-ms="50" started-at="2020-08-15T20:38:02Z" finished-at="2020-08-15T20:38:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_shouldDisplayText_whenUserInLandingPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sanjayautomation.recipebook.testcases.TestRecipesPage@1a451d4d]" name="tearDown" is-config="true" duration-ms="181" started-at="2020-08-15T20:38:02Z" finished-at="2020-08-15T20:38:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.sanjayautomation.recipebook.testcases.TestRecipesPage@1a451d4d]" name="setup" is-config="true" duration-ms="2312" started-at="2020-08-15T20:38:06Z" finished-at="2020-08-15T20:38:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test_shouldAddNewRecipe_whenCorrectValuesEntered()[pri:3, instance:com.sanjayautomation.recipebook.testcases.TestRecipesPage@1a451d4d]" name="test_shouldAddNewRecipe_whenCorrectValuesEntered" duration-ms="984" started-at="2020-08-15T20:38:08Z" finished-at="2020-08-15T20:38:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_shouldAddNewRecipe_whenCorrectValuesEntered -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.sanjayautomation.recipebook.testcases.TestRecipesPage@61862a7f]" name="afterClass" is-config="true" duration-ms="244" started-at="2020-08-15T09:22:55Z" finished-at="2020-08-15T09:22:55Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sanjayautomation.recipebook.testcases.TestRecipesPage@1a451d4d]" name="tearDown" is-config="true" duration-ms="225" started-at="2020-08-15T20:38:09Z" finished-at="2020-08-15T20:38:09Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.sanjayautomation.recipebook.testcases.TestRecipesPage@61862a7f]" name="beforeClass" is-config="true" duration-ms="2423" started-at="2020-08-15T09:22:56Z" finished-at="2020-08-15T09:22:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="test_shouldAddMultipleNewRecipes_whenCorrectValuesEnteredOneAfterAnother(java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.sanjayautomation.recipebook.testcases.TestRecipesPage@61862a7f]" name="test_shouldAddMultipleNewRecipes_whenCorrectValuesEnteredOneAfterAnother" duration-ms="1060" started-at="2020-08-15T09:22:59Z" data-provider="getTestDataForNewRecipe" finished-at="2020-08-15T09:23:00Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chicken Momo]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[dummy chickn momo url]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Delicious Nepali Cuisine.]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_shouldAddMultipleNewRecipes_whenCorrectValuesEnteredOneAfterAnother -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.sanjayautomation.recipebook.testcases.TestRecipesPage@61862a7f]" name="afterClass" is-config="true" duration-ms="205" started-at="2020-08-15T09:23:00Z" finished-at="2020-08-15T09:23:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.sanjayautomation.recipebook.testcases.TestRecipesPage@61862a7f]" name="beforeClass" is-config="true" duration-ms="4632" started-at="2020-08-15T09:23:00Z" finished-at="2020-08-15T09:23:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="test_shouldAddMultipleNewRecipes_whenCorrectValuesEnteredOneAfterAnother(java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.sanjayautomation.recipebook.testcases.TestRecipesPage@61862a7f]" name="test_shouldAddMultipleNewRecipes_whenCorrectValuesEnteredOneAfterAnother" duration-ms="3871" started-at="2020-08-15T09:23:04Z" data-provider="getTestDataForNewRecipe" finished-at="2020-08-15T09:23:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Shish Kabob]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[dummy shish kabob url]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[smokey Turkish bbq.]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_shouldAddMultipleNewRecipes_whenCorrectValuesEnteredOneAfterAnother -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.sanjayautomation.recipebook.testcases.TestRecipesPage@61862a7f]" name="afterClass" is-config="true" duration-ms="422" started-at="2020-08-15T09:23:08Z" finished-at="2020-08-15T09:23:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.sanjayautomation.recipebook.testcases.TestRecipesPage@61862a7f]" name="beforeClass" is-config="true" duration-ms="2370" started-at="2020-08-15T09:23:09Z" finished-at="2020-08-15T09:23:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="test_shouldAddMultipleNewRecipes_whenCorrectValuesEnteredOneAfterAnother(java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.sanjayautomation.recipebook.testcases.TestRecipesPage@61862a7f]" name="test_shouldAddMultipleNewRecipes_whenCorrectValuesEnteredOneAfterAnother" duration-ms="993" started-at="2020-08-15T09:23:11Z" data-provider="getTestDataForNewRecipe" finished-at="2020-08-15T09:23:12Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Biryani]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[dummy biryani url]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Flavour packed indian dish.]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_shouldAddMultipleNewRecipes_whenCorrectValuesEnteredOneAfterAnother -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.sanjayautomation.recipebook.testcases.TestRecipesPage@61862a7f]" name="afterClass" is-config="true" duration-ms="247" started-at="2020-08-15T09:23:12Z" finished-at="2020-08-15T09:23:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
+        </test-method> <!-- tearDown -->
       </class> <!-- com.sanjayautomation.recipebook.testcases.TestRecipesPage -->
-    </test> <!-- Test_RecipesPage_And_ShoppingListpage -->
+    </test> <!-- RegressionTest -->
   </suite> <!-- RecipeBook_RegressionTest -->
 </testng-results>
